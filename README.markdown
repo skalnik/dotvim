@@ -1,17 +1,4 @@
 skalnik's vim config
 ====================
 
-Installation
-------------
-
-Move your existing vim setup out of the way:
-
-    $ mv ~/.vimrc ~/.vimrc.old; mv ~/.gvimrc ~/.gvimrc.old; \
-      mv ~/.vim ~/.vim.old
-
-Clone the repo, add link to .vimrc, & install plugins:
-
-    $ git clone git://github.com/skalnik/vim_config.git ~/.vim
-    $ ln -s ~/.vim/vimrc ~/.vimrc
-    $ cd ~/.vim
-    $ mvim -u plug.vim +PlugInstall +qall
+Folded into my dotfiles at [skalnik/dotfiles@0ba927e1](https://github.com/skalnik/dotfiles/commit/0ba927e1c0f0919c75099d1ace35c019c0252148)
